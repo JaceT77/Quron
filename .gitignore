@@ -52,8 +52,8 @@ coverage.xml
 .pytest_cache/
 
 # Translations
-*.mo
-*.pot
+# *.mo
+# *.pot
 
 # Django stuff:
 *.log
@@ -103,7 +103,7 @@ celerybeat.pid
 
 # Environments
 .venv
-
+.env
 env/
 venv/
 ENV/
