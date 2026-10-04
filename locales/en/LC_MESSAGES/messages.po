@@ -1,0 +1,75 @@
+# English translations for PROJECT.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-10-02 06:41+0500\n"
+"PO-Revision-Date: 2026-10-02 06:37+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: src/handlers/start.py:16 src/handlers/start.py:20
+#, python-brace-format
+msgid "Hello, {name}!"
+msgstr "Hello, {name}!"
+
+#: src/handlers/start.py:30
+msgid "Choose your language!"
+msgstr "Choose your language!"
+
+#: src/handlers/start.py:38
+msgid "Your new language"
+msgstr "Language is set to English"
+
+#: src/handlers/start.py:43
+msgid "What would you like to read?"
+msgstr "What would you like to read?"
+
+#: src/handlers/surahs.py:16
+msgid "List of surahs"
+msgstr "List of surahs"
+
+#: src/handlers/surahs.py:25 src/handlers/surahs.py:28
+#: src/handlers/surahs.py:74 src/handlers/surahs.py:77
+#: src/handlers/surahs.py:122 src/handlers/surahs.py:125
+msgid "Problem with getting surahs. Try again"
+msgstr "Problem with getting surahs. Try again"
+
+#: src/keyboards/inline/inline_kbs.py:33 src/keyboards/inline/inline_kbs.py:59
+msgid "Back"
+msgstr "Back"
+
+#: src/keyboards/inline/inline_kbs.py:35 src/keyboards/inline/inline_kbs.py:60
+msgid "Home"
+msgstr "Home"
+
+#: src/keyboards/inline/inline_kbs.py:72
+msgid "Read Qur'an📖"
+msgstr "Read Qur'an📖"
+
+#: src/keyboards/inline/inline_kbs.py:73
+msgid "Set a reminder🔔"
+msgstr "Set a reminder🔔"
+
+#: src/keyboards/inline/inline_kbs.py:74
+msgid "Change language"
+msgstr "Change language"
+
+#: src/keyboards/inline/inline_kbs.py:81
+msgid "Surah"
+msgstr "Surah"
+
+#: src/keyboards/inline/inline_kbs.py:82
+msgid "Page"
+msgstr "Page"
+

@@ -3,6 +3,7 @@ import shlex
 import httpx2
 
 from api.service import AyahService, PageService, SurahService
+from core import settings
 
 
 async def curl_logger(request: httpx2.Request) -> None:
@@ -26,6 +27,7 @@ async def curl_logger(request: httpx2.Request) -> None:
 
     print("\n" + " ".join(parts) + "\n")
 
+
 class APIClient:
     surah: SurahService
     ayah: AyahService
@@ -33,7 +35,7 @@ class APIClient:
 
     def __init__(
         self,
-        base_url: str,
+        base_url: str = settings.BASE_URL,
         api_key: str | None = None,
         timeout: float = 10.0,
     ):

@@ -1,0 +1,76 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-10-02 06:41+0500\n"
+"PO-Revision-Date: 2026-10-02 06:39+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: src/handlers/start.py:16 src/handlers/start.py:20
+#, python-brace-format
+msgid "Hello, {name}!"
+msgstr "Привет, {name}!"
+
+#: src/handlers/start.py:30
+msgid "Choose your language!"
+msgstr "Выберите ваш язык!"
+
+#: src/handlers/start.py:38
+msgid "Your new language"
+msgstr "Теперь используется русский язык."
+
+#: src/handlers/start.py:43
+msgid "What would you like to read?"
+msgstr "Что вы хотите прочитать?"
+
+#: src/handlers/surahs.py:16
+msgid "List of surahs"
+msgstr "Список сур"
+
+#: src/handlers/surahs.py:25 src/handlers/surahs.py:28
+#: src/handlers/surahs.py:74 src/handlers/surahs.py:77
+#: src/handlers/surahs.py:122 src/handlers/surahs.py:125
+msgid "Problem with getting surahs. Try again"
+msgstr "Проблема с получением сур. Попробуйте еще раз"
+
+#: src/keyboards/inline/inline_kbs.py:33 src/keyboards/inline/inline_kbs.py:59
+msgid "Back"
+msgstr "Назад"
+
+#: src/keyboards/inline/inline_kbs.py:35 src/keyboards/inline/inline_kbs.py:60
+msgid "Home"
+msgstr "Главная"
+
+#: src/keyboards/inline/inline_kbs.py:72
+msgid "Read Qur'an📖"
+msgstr "Читать Коран📖"
+
+#: src/keyboards/inline/inline_kbs.py:73
+msgid "Set a reminder🔔"
+msgstr "Установить напоминание🔔"
+
+#: src/keyboards/inline/inline_kbs.py:74
+msgid "Change language"
+msgstr "Сменить язык"
+
+#: src/keyboards/inline/inline_kbs.py:81
+msgid "Surah"
+msgstr "Сура"
+
+#: src/keyboards/inline/inline_kbs.py:82
+msgid "Page"
+msgstr "Страница"
+

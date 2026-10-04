@@ -8,8 +8,10 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
-    "aiogram>=3.31.0",
+    "aiogram[i18n]>=3.31.0",
     "httpx2>=2.13.1",
+    "ipykernel>=7.4.0",
+    "pydantic>=2.13.5",
     "pydantic-settings>=2.15.0",
     "sqlmodel>=0.0.47",
     "structlog>=26.1.0",
@@ -29,3 +31,11 @@ preview = true
 "src/schemas/**" = ['mixed-case-variable-in-class-scope']
 "src/data/__init__.py" = ["non-empty-init-module"]
 "src/quron/__init__.py" = ["non-empty-init-module"]
+
+[dependency-groups]
+dev = [
+    "pandas>=3.0.6",
+    "soundfile>=0.14.0",
+    "ipython>=9.17.1",
+    "pyarrow>=25.0.1",
+]

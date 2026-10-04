@@ -15,12 +15,8 @@ class Edition(BaseModel):
 
 class AyahDetail(BaseModel):
     number: int
-    audio: str | None = (
-        None
-    )
-    audioSecondary: list[str] | None = (
-        None
-    )
+    audio: str | None = None
+    audioSecondary: list[str] | None = None
     text: str
     numberInSurah: int
     juz: int
@@ -30,7 +26,7 @@ class AyahDetail(BaseModel):
     hizbQuarter: int
     sajda: bool | dict | None = False
     edition: Edition | None = None
-    surah: SurahDetail | None = None
+    surah: SurahDetail
 
 
 class Ayah(BaseModel):
@@ -48,7 +44,6 @@ class SurahDetail(BaseModel):
     revelationType: str
     ayahs: list[AyahDetail] | None = None
     edition: Edition | None = None
-
 
 
 AyahDetail.model_rebuild()
@@ -78,3 +73,27 @@ class Page(BaseModel):
     code: int
     status: str
     data: PageDetail
+
+
+class AyahMessage(BaseModel):
+    number: int
+    ar: str
+    tr: str
+    l: str
+    audio: str
+    numberInSurah: int
+    juz: int
+    manzil: int
+    page: int
+    ruku: int
+    hizbQuarter: int
+    surah_name: str
+    surah_number: int
+
+
+class SurahMessage(BaseModel):
+    number: int
+    name: str
+    name_lang: str
+    numberOfAyahs: int
+    ayahs: list[AyahMessage]
